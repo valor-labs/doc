@@ -1,0 +1,26 @@
+{
+  "name": "doc",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valor-software/doc"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valor-software/doc/issues"
+  },
+  "homepage": "https://github.com/valor-software/doc#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "static-favicon": "^1.0.2"
+  },
+  "devDependencies": {
+  }
+}

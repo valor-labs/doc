@@ -1,0 +1,9 @@
+# Dependency directory
+/node_modules
+npm-debug.log
+
+# WebStorm
+.idea
+
+# OS generated files
+.DS_Store
