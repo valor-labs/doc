@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Doc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/css/reset.css">
@@ -15,7 +16,11 @@
         <h2>ng2-bootstrap</h2>
     </div>
 
-    <div class="top-menu-container">
+    <div id="mobile-main-menu">
+        <img src="assets/images/menu-left.svg" alt="">
+    </div>
+
+    <div id="top-menu-link" class="top-menu-container">
         <ul>
             <li><a href="">Docs</a></li>
             <li><a href="">Contribute</a></li>
@@ -23,17 +28,23 @@
         </ul>
     </div>
 
-    <div class="logo">
-        <a href="">
-            <img src="assets/images/logo.png" alt="">
-        </a>
-    </div>
+    <div class="menu-right">
+        <div class="git-hub">
+            <iframe frameborder="0" scrolling="0"
+                    src="https://ghbtns.com/github-btn.html?user=valor-software&repo=ng2-bootstrap&type=star&count=true"></iframe>
+            <iframe frameborder="0" scrolling="0"
+                    src="https://ghbtns.com/github-btn.html?user=valor-software&repo=ng2-bootstrap&type=fork&count=true"></iframe>
+        </div>
 
-    <div class="git-hub">
-        <iframe frameborder="0" scrolling="0"
-                src="https://ghbtns.com/github-btn.html?user=valor-software&repo=ng2-bootstrap&type=star&count=true"></iframe>
-        <iframe frameborder="0" scrolling="0"
-                src="https://ghbtns.com/github-btn.html?user=valor-software&repo=ng2-bootstrap&type=fork&count=true"></iframe>
+        <div class="logo">
+            <a href="">
+                <img src="assets/images/logo.png" alt="">
+            </a>
+        </div>
+
+        <div id="mobile-top-menu">
+            <img src="assets/images/menu-right.svg" alt="">
+        </div>
     </div>
 </div>
 
